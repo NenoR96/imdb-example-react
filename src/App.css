@@ -1,0 +1,97 @@
+.main-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.search-container > input {
+  height: 40px;
+  padding-left: 10px;
+}
+
+.accordion {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-color: transparent;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.accordion__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.accordion__header {
+  align-items: center;
+  padding: 16px;
+}
+
+.accordion__toggle {
+  margin-right: 12px;
+}
+
+.accordion__content {
+  display: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 16px;
+}
+
+.accordion__content--selected {
+  display: block;
+}
+
+.accordion-img {
+  height: auto;
+  width: 300px;
+  cursor: pointer;
+}
+
+.actor-list {
+  margin: 20px;
+}
+
+.pagination {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  justify-content: center;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.rating-list {
+  margin: 20px;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  list-style: none;
+}
+
+ul > li {
+  padding: 20px;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
